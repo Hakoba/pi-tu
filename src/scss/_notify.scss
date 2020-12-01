@@ -1,0 +1,28 @@
+.vue-notification {
+  background: var(--v-accent-base);
+  border-left-color: var(--v-accent-darken2);
+  cursor: pointer;
+  color: #000000de;
+  border-radius: $border-radius-root;
+  &.warn {
+    background: var(--v-warning-base);
+    border-left-color: var(--v-warning-darken2);
+  }
+
+  &.err {
+    background: var(--v-error-base);
+    border-left-color: var(--v-error-darken2);
+  }
+
+  &.succ {
+    color: white;
+    background: var(--v-accent-darken1);
+    border-left-color: var(--v-accent-darken4);
+  }
+  .notification-content {
+    white-space: break-spaces;
+  }
+}
+.vue-notification-group {
+  margin-top: 5px;
+}

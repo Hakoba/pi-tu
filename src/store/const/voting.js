@@ -1,0 +1,7 @@
+export const GET_VOTINGS = "GET_VOTINGS";
+export const CREATE_VOTING = "CREATE_VOTING";
+export const GET_VOTING = "GET_VOTING";
+export const DELETE_VOTING = "DELETE_VOTING";
+export const BLOCK_VOTING = "BLOCK_VOTING";
+export const UNBLOCK_VOTING = "UNBLOCK_VOTING";
+export const UPDATE_VOTING = "UPDATE_VOTING";
